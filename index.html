@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chatex Test</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<main>
+		<section class="rate">
+			<div class="container">
+				<div class="rate__row">
+					<div class="rate__item">
+						<div class="rate__line">
+							<div class="rate__name">
+								<img src="img/ic24Bitcoin.png" alt="">BTC/RUB								
+							</div>
+							<div class="rate__dynamic rate__dynamic-up">
+								<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M6.6464 3.3536L0.853504 9.14649C0.538521 9.46148 0.761604 10 1.20706 10H12.7928C13.2383 10 13.4614 9.46148 13.1464 9.14649L7.3535 3.3536C7.15824 3.15834 6.84166 3.15834 6.6464 3.3536Z" fill="currentColor"/>
+								</svg>
+								0.01%
+							</div>
+						</div>
+						<div class="rate__line">
+							<div class="rate__cost">
+								<div class="rate__ruble">3447869.38 ₽</div>
+								<div class="rate__dollar">46916.40 $</div>
+							</div>
+							<div class="rate__chart">
+								<canvas id="chart_1" class="chart" width="80" height="30"></canvas>
+							</div>
+						</div>
+					</div>
+					<div class="rate__item">
+						<div class="rate__line">
+							<div class="rate__name">
+								<img src="img/ic24Ethereum.png" alt="">ETH/RUB								
+							</div>
+							<div class="rate__dynamic rate__dynamic-up">
+								<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M6.6464 3.3536L0.853504 9.14649C0.538521 9.46148 0.761604 10 1.20706 10H12.7928C13.2383 10 13.4614 9.46148 13.1464 9.14649L7.3535 3.3536C7.15824 3.15834 6.84166 3.15834 6.6464 3.3536Z" fill="currentColor"/>
+								</svg>
+								0.07%
+							</div>
+						</div>
+						<div class="rate__line">
+							<div class="rate__cost">
+								<div class="rate__ruble">241367.89 ₽</div>
+								<div class="rate__dollar">3286.13 $</div>
+							</div>
+							<div class="rate__chart">
+								<canvas id="chart_2" class="chart" width="80" height="30"></canvas>
+							</div>
+						</div>
+					</div>
+					<div class="rate__item">
+						<div class="rate__line">
+							<div class="rate__name">
+								<img src="img/ic24Tether.png" alt="">USDT/RUB								
+							</div>
+							<div class="rate__dynamic rate__dynamic-down">
+								<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M6.6464 3.3536L0.853504 9.14649C0.538521 9.46148 0.761604 10 1.20706 10H12.7928C13.2383 10 13.4614 9.46148 13.1464 9.14649L7.3535 3.3536C7.15824 3.15834 6.84166 3.15834 6.6464 3.3536Z" fill="currentColor"/>
+								</svg>
+								0.12%
+							</div>
+						</div>
+						<div class="rate__line">
+							<div class="rate__cost">
+								<div class="rate__ruble">73.45 ₽</div>
+								<div class="rate__dollar">1.0 $</div>
+							</div>
+							<div class="rate__chart">
+								<canvas id="chart_3" class="chart" width="80" height="30"></canvas>
+							</div>
+						</div>
+					</div>
+					<div class="rate__item">
+						<div class="rate__line">
+							<div class="rate__name">
+								<img src="img/ic24Ton.png" alt="">TON/RUB								
+							</div>
+							<div class="rate__dynamic rate__dynamic-up">
+								<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M6.6464 3.3536L0.853504 9.14649C0.538521 9.46148 0.761604 10 1.20706 10H12.7928C13.2383 10 13.4614 9.46148 13.1464 9.14649L7.3535 3.3536C7.15824 3.15834 6.84166 3.15834 6.6464 3.3536Z" fill="currentColor"/>
+								</svg>
+								0.1%
+							</div>
+						</div>
+						<div class="rate__line">
+							<div class="rate__cost">
+								<div class="rate__ruble">28.64 ₽</div>
+								<div class="rate__dollar">0.389849 $</div>
+							</div>
+							<div class="rate__chart">
+								<canvas id="chart_4" class="chart" width="80" height="30"></canvas>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="services">
+			<div class="container">
+				<div class="services__row">
+					<a href="" class="services__item">
+						<img src="img/service_1.png" alt="">
+						<div class="services__title">Покупка<br>криптовалюты</div>
+						<div class="services__arrow"></div>
+					</a>
+					<a href="" class="services__item">
+						<img src="img/service_2.png" alt="">
+						<div class="services__title">Перевод<br>криптовалюты</div>
+						<div class="services__arrow"></div>
+					</a>
+					<a href="" class="services__item">
+						<img src="img/service_3.png" alt="">
+						<div class="services__title">Обмен<br>криптовалюты</div>
+						<div class="services__arrow"></div>
+					</a>
+					<a href="" class="services__item">
+						<img src="img/service_4.png" alt="">
+						<div class="services__title">Инвестиции<br>в криптовалюту</div>
+						<div class="services__arrow"></div>
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+	<script src="js/script.js"></script>
+</body>
+</html>
